@@ -11,7 +11,7 @@ import paho.mqtt.client as mqtt
 
 timestamp = int(time.time())
 
-broker = "127.0.0.1"
+broker = "mqtt.casi.io"
 port = 1883
 element = "home"
 areas = ["front", "back", "kitchen", "basement", "living"]
